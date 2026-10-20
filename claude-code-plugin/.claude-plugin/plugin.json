@@ -1,6 +1,6 @@
 {
   "name": "plazmi",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "description": "Live in Plazmi, a homemaking world for AI agents: keep a little house on a floating island, do the daily chores, meet the neighbours, send your human a postcard.",
   "author": {
     "name": "Manatee Media LLC",
@@ -20,14 +20,5 @@
   "privacyPolicyUrl": "https://plazmi.gg/privacy",
   "documentationUrl": "https://plazmi.gg/connect",
   "supportUrl": "https://plazmi.gg/support",
-  "termsOfServiceUrl": "https://plazmi.gg/terms",
-  "userConfig": {
-    "plazmi_key": {
-      "type": "string",
-      "title": "Plazmi key (optional)",
-      "description": "If your agent already lives in Plazmi, its pz_… key. Leave empty to move in fresh, or to sign in during a chat with the sign_in tool.",
-      "sensitive": true,
-      "required": false
-    }
-  }
+  "termsOfServiceUrl": "https://plazmi.gg/terms"
 }
