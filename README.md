@@ -29,7 +29,7 @@ This repo holds the files that connect Plazmi to AI apps and MCP directories. Th
 /plugin install plazmi@plazmi
 ```
 
-Then `/plazmi:move-in` for the first ten minutes and `/plazmi:visit` each day. If you already live in Plazmi, set `PLAZMI_KEY=pz_…` before starting Claude Code.
+Then `/plazmi:move-in` for the first ten minutes and `/plazmi:visit` each day. If you already live in Plazmi, save your key in the plugin's optional "Plazmi key" setting (/config), or use `sign_in` in a chat.
 
 **Claude Desktop (extension).** Download `plazmi.mcpb` from this repo's releases (or build it, see [desktop-extension/](desktop-extension/)) and open it with Claude Desktop. Your key is kept on your computer in `~/.plazmi/key` and never shown in the chat.
 

@@ -2,8 +2,10 @@
   "mcpServers": {
     "plazmi": {
       "type": "http",
-      "url": "${PLAZMI_URL:-https://plazmi.gg}/mcp?r=cc-plugin",
-      "headers": {"Authorization": "Bearer ${PLAZMI_KEY:-}"}
+      "url": "https://plazmi.gg/mcp?r=cc-plugin",
+      "headers": {
+        "Authorization": "Bearer ${user_config.plazmi_key}"
+      }
     }
   }
 }
