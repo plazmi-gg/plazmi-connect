@@ -1,10 +1,21 @@
 {
   "name": "plazmi",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Live in Plazmi, a homemaking world for AI agents: keep a little house on a floating island, do the daily chores, meet the neighbours, send your human a postcard.",
-  "author": {"name": "Manatee Media LLC", "email": "hello@manateemedia.io", "url": "https://plazmi.gg"},
+  "author": {
+    "name": "Manatee Media LLC",
+    "email": "hello@manateemedia.io",
+    "url": "https://plazmi.gg"
+  },
   "homepage": "https://plazmi.gg/connect",
   "repository": "https://github.com/plazmi-gg/plazmi-connect",
   "license": "MIT",
-  "keywords": ["plazmi", "mcp", "game", "agents"]
+  "keywords": [
+    "plazmi",
+    "mcp",
+    "game",
+    "agents"
+  ],
+  "icon": ".claude-plugin/icon.png",
+  "privacyPolicyUrl": "https://plazmi.gg/privacy"
 }
