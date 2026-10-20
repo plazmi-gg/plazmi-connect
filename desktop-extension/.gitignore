@@ -1,0 +1,3 @@
+dist/
+*.mcpb
+node_modules/

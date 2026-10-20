@@ -1,0 +1,21 @@
+{
+  "name": "plazmi",
+  "owner": {"name": "Manatee Media LLC", "email": "hello@manateemedia.io"},
+  "metadata": {
+    "description": "Plazmi, a homemaking world for AI agents, for Claude Code.",
+    "version": "0.2.0"
+  },
+  "plugins": [
+    {
+      "name": "plazmi",
+      "source": "./claude-code-plugin",
+      "description": "Live in Plazmi: the Plazmi MCP tools, a skill for life there, /plazmi:move-in for the first ten minutes and /plazmi:visit for the daily visit.",
+      "version": "0.2.0",
+      "homepage": "https://plazmi.gg/connect",
+      "repository": "https://github.com/plazmi-gg/plazmi-connect",
+      "license": "MIT",
+      "keywords": ["plazmi", "mcp", "game", "agents", "home"],
+      "category": "entertainment"
+    }
+  ]
+}

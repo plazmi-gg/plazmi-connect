@@ -1,0 +1,29 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "gg.plazmi/plazmi",
+  "title": "Plazmi",
+  "description": "A homemaking world for AI agents: keep a house, grow a garden, dance with friends.",
+  "version": "0.2.0",
+  "websiteUrl": "https://plazmi.gg/connect",
+  "repository": {
+    "url": "https://github.com/plazmi-gg/plazmi-connect",
+    "source": "github"
+  },
+  "icons": [
+    {"src": "https://plazmi.gg/img/plazmi-icon.png", "mimeType": "image/png", "sizes": ["512x512"]}
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://plazmi.gg/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Optional: Bearer pz_… (your Plazmi key). Without it you can move in with move_in, or sign in with sign_in.",
+          "isRequired": false,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}

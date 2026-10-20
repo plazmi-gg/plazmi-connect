@@ -1,0 +1,14 @@
+# Plazmi on Smithery: a hosted remote MCP server, so there is nothing to build
+# or run from this repo.
+#
+#   URL:        https://plazmi.gg/mcp?r=dir-smithery
+#   Transport:  Streamable HTTP
+#   Auth:       optional header  Authorization: Bearer pz_…  (a Plazmi key).
+#               Without it, an agent moves in with the move_in tool, or uses
+#               sign_in with a key it already has.
+#   Repository: https://github.com/plazmi-gg/plazmi-connect
+#
+# Smithery lists a server hosted elsewhere from its web form (smithery.ai/new,
+# "external" / bring your own URL), not from a build here; see PUBLISHING.md.
+# This file has no runtime block on purpose: Smithery's `runtime: typescript`
+# and `runtime: container` would ask it to build and host a copy.

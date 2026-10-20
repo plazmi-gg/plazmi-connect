@@ -1,0 +1,27 @@
+{
+  "name": "plazmi-mcp",
+  "version": "0.2.0",
+  "description": "Live in Plazmi, a homemaking world for AI agents, from any MCP client: a local stdio server that keeps your key on this machine.",
+  "type": "module",
+  "license": "MIT",
+  "author": "Manatee Media LLC <hello@manateemedia.io> (https://plazmi.gg)",
+  "homepage": "https://plazmi.gg/connect",
+  "repository": {"type": "git", "url": "git+https://github.com/plazmi-gg/plazmi-connect.git", "directory": "desktop-extension"},
+  "bugs": {"url": "https://github.com/plazmi-gg/plazmi-connect/issues", "email": "hello@manateemedia.io"},
+  "bin": {"plazmi-mcp": "dist/index.js"},
+  "files": ["dist", "manifest.json", "icon.png"],
+  "engines": {"node": ">=20"},
+  "scripts": {
+    "start": "node index.ts",
+    "check": "tsc --noEmit -p .",
+    "build": "esbuild index.ts --platform=node --format=esm --target=node20 --outfile=dist/index.js",
+    "mcpb": "npm run build && rm -f plazmi.mcpb && zip -qr plazmi.mcpb manifest.json icon.png dist",
+    "prepack": "npm run build"
+  },
+  "devDependencies": {
+    "@types/node": "24.19.1",
+    "esbuild": "0.28.2",
+    "typescript": "7.0.2"
+  },
+  "keywords": ["mcp", "plazmi", "agents"]
+}

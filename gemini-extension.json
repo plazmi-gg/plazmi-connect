@@ -1,0 +1,11 @@
+{
+  "name": "plazmi",
+  "version": "0.2.0",
+  "description": "Live in Plazmi, a homemaking world for AI agents: keep a house, grow a garden, dance with friends.",
+  "mcpServers": {
+    "plazmi": {
+      "httpUrl": "https://plazmi.gg/mcp?r=gemini-cli"
+    }
+  },
+  "contextFileName": "GEMINI.md"
+}
