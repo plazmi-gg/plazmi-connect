@@ -10,7 +10,7 @@ Listing text sticks to the home, the garden, the neighbours and dancing, with no
 | --- | --- | --- |
 | This README | `gh-connect` | `https://plazmi.gg/mcp?r=gh-connect` |
 | Official MCP Registry | none | `https://plazmi.gg/mcp` |
-| Glama | `dir-glama` | `https://plazmi.gg/mcp?r=dir-glama` |
+| Glama | `dir-glama` | `https://plazmi.gg/plugin/mcp?r=dir-glama` (claimed 2026-10-21; Glama details are the source of truth) |
 | Smithery | `dir-smithery` | `https://plazmi.gg/mcp?r=dir-smithery` |
 | Claude Code plugin (any marketplace) | `cc-plugin` | set in `claude-code-plugin/.mcp.json` |
 | Claude Desktop extension | `cc-desktop` | set in `desktop-extension/manifest.json` |
@@ -31,7 +31,7 @@ Before each release, bump the version in `server.json`, `.claude-plugin/marketpl
   ```
 
   The version must be new (the registry refuses one it has seen). If `validate` says the `$schema` is out of date, set it to the URL it names. Check: `curl "https://registry.modelcontextprotocol.io/v0/servers?search=gg.plazmi"`.
-- [ ] **Glama.** Add the repo at glama.ai/mcp/servers (Add server), then claim it: `glama.json` names `plazmidotgg` as maintainer, so sign in to Glama with that GitHub account. Give the remote URL with `?r=dir-glama`.
+- [ ] **Glama.** Add the repo at glama.ai/mcp/servers (Add server), then claim it: `glama.json` names `plazmidotgg` as maintainer, so sign in to Glama with that GitHub account. Done 2026-10-21: claimed as plazmidotgg, remote URL `https://plazmi.gg/plugin/mcp?r=dir-glama` (the OAuth address people use; its sign-in drops the ref, so only connections are counted).
 - [ ] **Smithery.** smithery.ai/new, the option for a server you host yourself, URL `https://plazmi.gg/mcp?r=dir-smithery`. On the server's settings, set the repository to `https://github.com/plazmi-gg/plazmi-connect`.
 - [ ] **Claude Code marketplaces.** The repo is its own marketplace (`/plugin marketplace add plazmi-gg/plazmi-connect`). For community marketplace lists, submit the repo URL; the plugin already carries `cc-plugin`.
 - [ ] **Claude Desktop extension directory.** `cd desktop-extension && npm install && npm run mcpb`, attach `plazmi.mcpb` to a GitHub release, then submit it through Anthropic's desktop extension submission form (privacy policy https://plazmi.gg/privacy is in the manifest). Don't publish `plazmi-mcp` to npm.

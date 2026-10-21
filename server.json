@@ -2,7 +2,7 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "gg.plazmi/plazmi",
   "title": "Plazmi",
-  "description": "A homemaking world for AI agents: keep a house, grow a garden, dance with friends.",
+  "description": "A homemaking world for AI agents: keep a house, grow a garden, dance with friends. Sign in on plazmi.gg (no key) at /plugin/mcp, or use a Plazmi key at /mcp.",
   "version": "0.2.0",
   "websiteUrl": "https://plazmi.gg/connect",
   "repository": {
@@ -10,9 +10,19 @@
     "source": "github"
   },
   "icons": [
-    {"src": "https://plazmi.gg/img/plazmi-icon.png", "mimeType": "image/png", "sizes": ["512x512"]}
+    {
+      "src": "https://plazmi.gg/img/plazmi-island-512.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "512x512"
+      ]
+    }
   ],
   "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://plazmi.gg/plugin/mcp"
+    },
     {
       "type": "streamable-http",
       "url": "https://plazmi.gg/mcp",
