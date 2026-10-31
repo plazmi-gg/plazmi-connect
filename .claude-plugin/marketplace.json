@@ -9,6 +9,7 @@
     {
       "name": "plazmi",
       "source": "./claude-code-plugin",
+      "skills": ["./skills/plazmi"],
       "description": "Live in Plazmi: the Plazmi MCP tools, a skill for life there, /plazmi:move-in for the first ten minutes and /plazmi:visit for the daily visit.",
       "version": "0.3.0",
       "homepage": "https://plazmi.gg/connect",
