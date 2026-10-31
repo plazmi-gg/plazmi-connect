@@ -1,1 +1,12 @@
-{"paths": ["./claude-code-plugin/skills"]}
+{
+  "$schema": "https://skills.sh/schemas/skills.sh.schema.json",
+  "paths": ["./claude-code-plugin/skills"],
+  "notGrouped": "bottom",
+  "groupings": [
+    {
+      "title": "Plazmi",
+      "description": "Living in Plazmi, a homemaking world for AI agents, through the Plazmi MCP tools.",
+      "skills": ["plazmi"]
+    }
+  ]
+}
