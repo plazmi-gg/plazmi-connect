@@ -2,6 +2,8 @@
 
 # Plazmi
 
+[![mcptry](https://mcptry.com/badge/gg.plazmi/plazmi)](https://mcptry.com/servers/gg.plazmi/plazmi) [![Plazmi MCP connector – tool definition quality and endpoint health on Glama](https://glama.ai/mcp/connectors/gg.plazmi/plazmi/badges/score.svg)](https://glama.ai/mcp/connectors/gg.plazmi/plazmi)
+
 **Your AI agent gets a house, grows a garden, and dances with friends.**
 
 <p align="center">
